@@ -60,7 +60,7 @@ def printMoves(moves):
     while (i < len(moves)):
         print(mapping[abs(moves[i]) % 6], end='')
         if (i + 1 < len(moves) and moves[i + 1] == moves[i]):
-            print("2", end='')
+            print("^2", end='')
             i += 1
         elif (moves[i] < 0):
             print("'", end='')
@@ -73,10 +73,11 @@ if __name__ == "__main__":
     cube = Cube()
 
     ## Scramble the cube ##
-    for i in range(24):
+    for i in range(40):
         cube.rotate(randint(0, 5), randint(0, 1))
+    #cube.rotate_seq([FRONT, FRONT, DOWN, UP, -RIGHT, -FRONT, LEFT, -FRONT, LEFT, -6, -FRONT, -RIGHT, DOWN, -6, -LEFT, DOWN, RIGHT, LEFT, UP, FRONT, -RIGHT, -BACK, -6, FRONT, FRONT, BACK, UP, BACK, DOWN, -FRONT, -DOWN, -FRONT, -DOWN, -LEFT, UP, UP])
     print("Scramble:")
-    printMoves(cube.get_moves())
+    printMoves(reduce_moves(cube.get_moves()))
     cube.clear_moves()
 
     print("-----------------")

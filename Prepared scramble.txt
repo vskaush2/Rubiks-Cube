@@ -1,4 +1,4 @@
-Scramble:
+Scramble 1:
 L' F' B' R' D B' U F B L' D L F' F L R R' D' F' B' L B F' F
 -----------------
 G0 -> G1: U' R' U' L' D L B2 L2 F U' B2 R2 U F' U' F
@@ -7,5 +7,21 @@ G2 -> G3: R2 L2 D' L2 D' L2 D' R2 U R2 U' R2 U R2 U' R2 D' U' R2 D' F2 R2 L2 B2 
 G3 -> G4: U2 F2 R2 F2 U2 F2 R2 F2 U2 F2 L2 U2 L2 F2 U2 L2 U2 F2 U2 R2 U2 F2 U2 R2 L2 D2 U2 L2 D2 U2 R2 L2
 
 
+Scramble 2:
+F' B2 L B R' L' F R F' R' F2 D' L' F' R' L' U' B R' D R F D' F R' D2 B' R D R F' L B'
+-----------------
+G0 -> G1: U2 R D' R2 U2 L U2 F L U' L' D' R D L' D' F
+G1 -> G2: U R L D' R2 D' R U R' D L2 D' R D' U2 F2 R' D L2 D' R D U' R' D L2 D' R U' F2 R' D L2 D' R
+G2 -> G3: D2 L2 D L2 U2 R2 D' R2 D R2 D' R2 D U R2 U' R2 U R2 U' R2 B2 L2 B2 L2 B2 L2 D' U F2 U2 L2 U2 L2 U2 L2 F2 U'
+G3 -> G4: U2 F2 R2 F2 U2 F2 R2 F2 D2 U2 F2 L2 U2 L2 F2 U2 L2 D2 U2 F2 U2 R2 U2 F2 U2 R2 U2 F2 U2 R2 U2 F2 U2 R2
+
+Scramble:
+F^2 D U R' F' L F' L U' F' R' D U' L' D R L U F R' B' U' F^2 B U B D F' D' F' D' L' U^2
+-----------------
+G0 -> G1: L U' L' D' R' B^2 L^2 F U' R U F' U' F
+G1 -> G2: U' R L D R^2 D R D^2 U' R' D L^2 D' R D U^2 F^2 R' D L^2 D' R
+G2 -> G3: R^2 D^2 R^2 D R^2 D' R^2 D R^2 D' U' B^2 L^2 B^2 L^2 B^2 L^2 D
+G3 -> G4: U^2 F^2 B^2 U^2 F^2 B^2 L^2 B^2 U^2 B^2 L^2 U^2 B^2 L^2 D^2 L^2 D^2 L^2 U^2 F^2 U^2 R^2 U^2 F^2 U^2 R^2 U^2 F^2 U^2 R^2 U^2 F^2 U^2 R^2
+non-reduced: U^2 F^2 B^2 U^2 F^2 B^2 U^2 D^2 D^2 U^2 L^2 B^2 U^2 B^2 L^2 U^2 B^2 D^2 D^2 L^2 D^2 L^2 D^2 L^2 U^2 F^2 U^2 R^2 U^2 F^2 U^2 R^2 U^2 F^2 U^2 R^2 U^2 F^2 U^2 R^2
 Go to: https://rubiks-cu.be/
 for visualization!
